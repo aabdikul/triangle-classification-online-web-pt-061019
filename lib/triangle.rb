@@ -8,7 +8,7 @@ class Triangle
     @side_3 = side_3_in
   end
 
-  def kind
+  def self.kind
     if @side_1 == @side_2 == @side_3
        return :equilateral
      end
