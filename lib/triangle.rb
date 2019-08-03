@@ -1,6 +1,6 @@
 class Triangle
 
-  attr_accessor :side_1, :side_2, :side_3
+  attr_accessor :side_1, :side_2, :side_3, :equilateral
 
   def initialize(side_1_in, side_2_in, side_3_in)
     @side_1 = side_1_in
