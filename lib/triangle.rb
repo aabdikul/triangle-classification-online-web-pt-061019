@@ -12,8 +12,7 @@ class Triangle
     if @side_1 == @side_2 == @side_3
        return :equilateral
      end
-   end
- end
+  end
 
 
 end
